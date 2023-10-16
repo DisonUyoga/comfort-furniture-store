@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import axios from 'axios'
 import { auth } from './features/home/productSlice.js'
 
-axios.defaults.baseURL='http://disonobudho.pythonanywhere.com'
+axios.defaults.baseURL='https://disonobudho.pythonanywhere.com'
 store.dispatch(auth())
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
